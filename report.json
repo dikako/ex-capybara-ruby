@@ -1,0 +1,780 @@
+[
+  {
+    "id": "login",
+    "uri": "features/scenarios/Login.feature",
+    "keyword": "Feature",
+    "name": "Login",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1016909000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127760000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39102000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51227000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31573000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1363687000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66617000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30249000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52124000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39597000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68895000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9637000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 11
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 791000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61103000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 29,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37706000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41327000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34180000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63529000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11286000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 28
+          },
+          {
+            "name": "@Sanity",
+            "line": 28
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74965000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "login",
+    "uri": "features/scenarios/Regi.feature",
+    "keyword": "Feature",
+    "name": "Login",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24993000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52231000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38543000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44026000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27546000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 857000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76286000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27715000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50478000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36454000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61900000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14604000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 11
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 752000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72834000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;success-login",
+        "keyword": "Scenario",
+        "name": "Success login",
+        "description": "",
+        "line": 29,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user visit swag labs",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19123000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user input username \"STANDARD_USERNAME\"",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52821000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input password \"STANDARD_PASSWORD\"",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40092000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click button login",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45096000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user see product page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24932000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 28
+          },
+          {
+            "name": "@Sanity",
+            "line": 28
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69830000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
